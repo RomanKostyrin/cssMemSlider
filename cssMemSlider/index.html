@@ -4,14 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Slider</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="slider"></div>
-      <div class="text">
-        <p class="text"></p>
+      <div class="wrapper">
+        <input type="radio" checked="checked" name="radio" id="input1" />
+        <input type="radio" name="radio" id="input2" />
+        <input type="radio" name="radio" id="input3" />
+        <input type="radio" name="radio" id="input4" />
+        <div class="slider">
+          <div id="one" class="slide slide1">
+            <img src="./slides/1.png" alt="1" width="1000" height="571" />
+          </div>
+          <div id="two" class="slide slide2">
+            <img src="./slides/2.jpg" alt="1" width="1000" height="571" />
+          </div>
+          <div id="three" class="slide slide3">
+            <img src="./slides/3.jpeg" alt="1" width="1000" height="571" />
+          </div>
+          <div id="four" class="slide slide4">
+            <img src="./slides/4.png" alt="1" width="1000" height="571" />
+          </div>
+        </div>
+        <div class="description">
+          <div class="description__text">We are memes</div>
+          <div class="description__text">222222</div>
+          <div class="description__text">33333333</div>
+          <div class="description__text">4444444444444</div>
+        </div>
+        <div class="buttons">
+          <label class="radio-container radio-container1" for="input1"> </label>
+          <label class="radio-container radio-container2" for="input2"
+            ></a>
+          </label>
+          <label class="radio-container radio-container3" for="input3"
+            ></a>
+          </label>
+          <label class="radio-container radio-container4" for="input4"
+            ></a>
+          </label>
+        </div>
       </div>
     </div>
   </body>

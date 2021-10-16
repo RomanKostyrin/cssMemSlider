@@ -159,6 +159,7 @@ input[type='radio'] {
   }
   .wrapper {
     width: 80%;
+    grid-template-rows: 1fr 1fr 0.2fr 0.3fr;
     grid-template-areas:
       'slider slider slider slider'
       'slider slider slider slider'
